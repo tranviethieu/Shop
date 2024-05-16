@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom'
 
-function Header({}: any) {
+function Header({ navLink }: any) {
+  console.log(navLink)
   return (
     <aside className='col-span-1' aria-label='Sidebar'>
       <div className='flex h-full flex-col overflow-y-auto bg-gray-100 py-4 px-3 shadow-lg'>
